@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".controleur.AccueilActivity"
+    android:divider="@drawable/empty_tall_divider"
+    android:showDividers="middle">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/application_dessin"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btnNouvDessin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nouveau_dessin" />
+    <Button
+        android:id="@+id/btnReprendreDessin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reprendre_dessin" />
+    <Button
+        android:id="@+id/btnQuitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quitter" />
+
+</LinearLayout>

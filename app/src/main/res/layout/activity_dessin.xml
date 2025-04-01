@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:backgroundTint="#00FFFFFF"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	tools:context=".controleur.DessinActivity"
+
+	android:id="@+id/pnlDessin">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/btnQuitter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="QUITTER" />
+
+		<Button
+			android:id="@+id/btnEffacer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="EFFACER TOUT" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:backgroundTint="#00FFFFFF"
+		android:orientation="horizontal"
+		android:paddingLeft="100dp"
+		android:paddingRight="100dp">
+
+		<Button
+			android:id="@+id/btnRouge"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:backgroundTint="#FF0000" />
+
+		<Button
+			android:id="@+id/btnVert"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FF00" />
+
+		<Button
+			android:id="@+id/btnBleu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#0000FF" />
+
+		<Button
+			android:id="@+id/btnJaune"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#FFFF00" />
+
+		<Button
+			android:id="@+id/btnNoir"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#000000" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:id="@+id/imgBtnCarreVide"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:src="@drawable/carre_vide" />
+
+		<ImageButton
+			android:id="@+id/imgBtnCarrePlein"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:src="@drawable/carre_plein" />
+
+		<ImageButton
+			android:id="@+id/imgBtnCercleVide"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:src="@drawable/cercle_vide" />
+
+		<ImageButton
+			android:id="@+id/imgBtnCerclePlein"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:src="@drawable/cercle_plein" />
+
+		<ImageButton
+			android:id="@+id/imgBtnTrait"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:src="@drawable/trait" />
+
+		<ImageButton
+			android:id="@+id/imgBtnRetour"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:backgroundTint="#00FFFFFF"
+			android:maxHeight="4dp"
+			android:src="@drawable/retour" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">Dessin</string>
+	<string name="application_dessin">Application de dessin</string>
+	<string name="nouveau_dessin">Nouveau Dessin</string>
+	<string name="reprendre_dessin">Reprendre Dessin</string>
+	<string name="quitter">Quitter</string>
+</resources>
